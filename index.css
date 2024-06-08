@@ -1,0 +1,167 @@
+@media only screen and (max-width: 450px) {
+    
+    body {
+        background: #2e2e2e;
+        height: 300vh;
+    }
+
+    .Principal {
+        width: 100%;
+        background-image: url(robert-greene.png);
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .Principal h1 {
+        padding-top: 90%;
+        color: azure;
+        font-style: normal;
+        font-weight: 300;
+        font-family: "Tilt Neon", sans-serif;
+        margin-left: 20px;
+    }
+
+    .Principal h3 {
+        color: azure;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .Principal h3 p {
+        display: inline;
+        border-bottom: 1px solid #fff;
+    }
+
+    .contenedor {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .libros {
+        height: 50vh;
+        width: 90%;
+        background: #fff;
+        border-radius: 5%;
+        margin-top: -100px;
+
+    }
+
+    li {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+
+    .libros img {
+        height: 40px;
+        display: inline-block;
+    }
+
+    .libros h2 {
+        width: 300px;
+        text-align: center;
+        font-family: "Tilt Neon", sans-serif;
+    }
+
+    .libros h3 {
+        margin-top: -15px;
+        width: 300px;
+        text-align: center;
+        font-family: "Tilt Neon", sans-serif;
+        font-weight: 600;
+    }
+
+    .libros a {
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #000;
+        padding-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 15px;
+        font-family: "Tilt Neon", sans-serif;
+        font-weight: 900;
+    }
+    
+    .libros a:hover {
+        background: #000;
+        color: #fff;
+        transition: 0.1s;
+    }
+
+
+
+
+    .contenedor-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px; 
+    }
+
+    .libros-2 {
+        height: 50vh;
+        width: 90%;
+        background: #fff;
+        border-radius: 5%;
+    }
+
+    .libros-2 img {
+        height: 40px;
+        display: inline-block;
+    }
+
+    .libros-2 h2 {
+        width: 300px;
+        text-align: center;
+        font-family: "Tilt Neon", sans-serif;
+    }
+
+    .libros-2 h3 {
+        margin-top: -15px;
+        width: 300px;
+        text-align: center;
+        font-family: "Tilt Neon", sans-serif;
+        font-weight: 600;
+    }
+
+    .libros-2 a {
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #000;
+        padding-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 15px;
+        font-family: "Tilt Neon", sans-serif;
+        font-weight: 900;
+    }
+
+    .libros-2 a:hover {
+        background: #000;
+        color: #fff;
+        transition: 0.1s;
+    }
+
+    .Text-largo{
+        margin-top: -10px;
+    } 
+
+    .boton-abajo  {
+        margin-top: -20px;
+    }
+
+    .text-las48ldpr {
+        margin-top: 20px;
+    }
+
+    .boton-las48ldpr {
+        margin-top: 15px;
+    }
+
+}

@@ -1,0 +1,73 @@
+@media only screen and (max-width: 450px) {
+
+    body {
+        height: 80vh;
+        background: url(Libro_El_Arte_De_La_Seducción.png);
+        background-size: cover;
+    }
+    
+
+    .tittle {
+        margin-top: 10vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        border-radius: 10px;
+        background: #fff;
+        color: #000;
+        font-family: "Tilt Neon", sans-serif;
+        width: 80%;
+    }
+
+    h1 p {
+        display: inline;
+        border-bottom:  2px solid #fff;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info p {
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 5%;
+        text-align: center;
+        color: #000;
+        font-family: "Tilt Neon", sans-serif;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .boton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boton a {
+        background-color: #fff;
+        margin-top: 40px;
+        text-decoration: none;
+        color: #000;
+        font-family: "Tilt Neon", sans-serif;
+        font-weight: 900;
+        padding-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .boton a:hover {
+        color: #fff;
+        background: #000;
+        transition: 0,5s;
+    }
+
+
+
+}
